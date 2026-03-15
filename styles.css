@@ -151,12 +151,40 @@ body {
 }
 
 .callsec {
-    padding: 200px 200px 200px 200px;
+    padding: 200px 400px 200px 400px;
     height: 50px;
 }
 #container {
     border: 5px     ;
     border: 5px solid #3882f6;
     background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+#callh2 {
+    color: #e5e7eb;
+    padding-left: 100px;
+    
+}
+
+#callp {
+    color: #1F2937;
+    padding-left: 100px;
+    padding-right: 50px;
+
+}
+
+#callbtn {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    margin-right: 30px;
+    margin top: 20px;
+    padding: 2px 2px 2px 2px;
+    text-align: left;
+    font-weight: bold;
 }
